@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('SG_logo.jpeg'); /* Replace with your background image URL */
+    background-image: url('SG_logo.jpeg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
