@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('c:\\Users\\DISTO CREATIONZ\\Desktop\\WORK\\STREET GARAGE\\SG_logo.jpeg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for text visibility */
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #51ff00;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+main section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+main section h2 {
+    font-size: 2rem;
+    color: #11836a;
+    text-shadow: 1px 1px 2px #000000;
+    margin-bottom: 10px;
+}
+
+main section p,
+main section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+main section ul {
+    list-style: none;
+    padding: 0;
+}
+
+main section ul li {
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: #075a27;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.buttons button:hover {
+    background-color:  #075a27;
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form label {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+form input,
+form textarea,
+form button {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form input,
+form textarea {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+form button {
+    background-color: #075a27;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #3cff00;
+}
+
+footer {
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+}
